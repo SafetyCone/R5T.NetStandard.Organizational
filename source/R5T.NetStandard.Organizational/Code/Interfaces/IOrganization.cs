@@ -1,8 +1,10 @@
 ﻿using System;
 
+
 namespace R5T.NetStandard.Organizational
 {
-    public class Class1
+    public interface IOrganization
     {
+        string Name { get; }
     }
 }
